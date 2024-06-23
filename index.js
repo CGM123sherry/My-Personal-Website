@@ -1,4 +1,5 @@
-document.addEventListener('DOMContentLoaded', function () {
-    console.log('Document is ready!');
-    
-  });
+
+  const h2 = document.createElement("h2");
+h2.textContent = "This content added by JavaScript";
+
+document.querySelector("body").appendChild(h2);
