@@ -5,19 +5,27 @@ body{
     margin: 0;
     padding: 0;
 }
- p {
+p {
     -moz-box-shadow: 5px 5px 5px #777777; 
     -webkit-box-shadow: 5px 5px 5px #777777; 
     box-shadow: 5px 5px 5px #777777;}
-}
-header{
-    text-align: center;
-}
+
+
 
  nav ul li {
     display: inline;
-    margin: 0 10px;
+    margin: 0, 10px;
+    
   }
   img{
     width: 200px;
+   
   }
+  h1 {
+    border: 2px solid black;
+    padding: 10px;
+    text-align: center;
+    margin: 20px auto;
+    max-width: 600px;
+    border-radius: 10px; 
+}
